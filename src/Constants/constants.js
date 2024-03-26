@@ -48,6 +48,8 @@ import {
   typeScriptIcon,
   expressIcon,
   pairIcon,
+  edgar,
+  persona
 } from '../assets';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -100,6 +102,10 @@ export const navLinks = [
     title: 'About',
   },
   {
+    id: 'experience',
+    title: 'Experience',
+  },
+  {
     id: 'projects',
     title: 'Projects',
   },
@@ -134,6 +140,24 @@ const projects = [
     image: fnf,
     source_code_link: 'https://github.com/Tan0699/fnf--Airbnb-Clone',
     demo_link: 'https://fnf.onrender.com/',
+  },
+];
+const experiences = [
+  {
+    name: 'Full-Stack Developer Intern - Afterflea',
+    date:"December 2023 - Current",
+    description: 'Engaged in the development of a cutting-edge social media platform, I contributed to both frontend and backend tasks using a modern tech stack including MongoDB, FireBase, TypeScript, React, and Tailwind CSS. Implementing AI-generated conversations and key social media features, such as feed algorithms and messaging systems, enhanced the platforms functionality. This involvement facilitated enriched user engagement experiences, leveraging machine learning to mimic real-life interactions based on user personas.',
+    image: persona,
+    // source_code_link: 'https://github.com/Tan0699/Yelpsy',
+    demo_link: 'https://personanet.app/',
+  },
+  {
+    name: "Freelance Software Developer - AskEdgar",
+    date:"June 2023 - October 2023",
+    description: 'As a Freelance Software Developer , I collaborated closely with a client to develop a startup-focused web application tailored for traders and investors. With a primary focus on frontend development using React, I ensured an intuitive user interface for accessing and analyzing company filings. Additionally, I integrated machine learning capabilities into the backend with Python Flask, enabling effective user query responses. Regular client communication ensured alignment with their vision throughout the project.',
+    image: edgar,
+    // source_code_link: 'https://github.com/lamarjd/Dont-Forget-The-Milk',
+    demo_link: 'https://www.askedgar.io/',
   },
 ];
 
@@ -269,4 +293,5 @@ export {
   skills,
   markerSvg,
   icons,
+  experiences
 };

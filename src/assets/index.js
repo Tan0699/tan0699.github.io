@@ -39,6 +39,8 @@ import firebaseIcon from './tech/firebase.png';
 import yelpsy from './projects/yelpsy.png';
 import milk from './projects/milkkk.jpg';
 import fnf from './projects/fnf.png';
+import edgar from "./projects/edgar.png"
+import persona from "./projects/persona.png"
 
 // Avatar
 import avatar from './avatar/avatar.png';
@@ -71,5 +73,7 @@ export {
   mongodbIcon,
   expressIcon,
   pairIcon,
-  typeScriptIcon
+  typeScriptIcon,
+  edgar,
+  persona
 };
